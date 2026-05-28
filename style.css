@@ -1,79 +1,158 @@
 * {
-   margin : 0  ;
-     padding : 0 ;
-box-sizing : border-box ;
-   font-family : Arial, sans-serif ;
-}
-body {
-    background : #eaf6f8 ;
-   color : #123 ;
-       line-height : 1.6 ;
-}
+      margin : 0 ;
+   padding : 0 ;
+ box-sizing : border-box ;
+ font-family : Arial, sans-serif ;
+  }
+
+  body {
+     background : #eaf6f8 ;
+   color: #123 ;
+   line-height: 1.6 ;
+ }
 
 .navbar {
-    background : #0f5c5c ;
- color  : white ;
-    display: flex;
- justify-content : space-between ;
-    align-items: center ;
-       padding : 18px 8% ;
-  position: sticky ;
-  top : 0; 
-   z-index : 1000 ;
-} 
+   background: #0f4c5c ;
+    color : white ;
+   display: flex ;
+  justify-content : space-between ;
+  align-items: center ;
+ padding : 18px 8% ;
+   position: sticky ;
+      top: 0 ;
+ z-index : 1000 ;
+ }
 
-.logo {
-    font-size : 1.5rem ;
-  font-weight : bold  ;
-}
+ .logo {
+    font-size: 1.5rem  ;
+   font-weight : bold  ;
+   }
 
 .navbar nav a {
-    color : white ;
-   text-decoration : none;
-margin-left : 20px;
-    font-size : 1rem ;
-       transition  : 0.4s ; 
-}
+     color : white ;
+  text-decoration : none ;
+margin-left : 20px ;
+font-size: 1rem ;
+     transition : 0.3s ;
+  }
 
 .navbar nav a:hover {
-   color : #7fe9dc ;
-}
+    color : #7fe6dc ;
+ }
 
 .hero {
-      background: linear-gradient(rgba(8, 107, 134, 0.85), rgba(15, 76, 94, 0.85)), url("images/image1.jpg");
-background-size : cover ;
+     background : linear-gradient(rgba(8, 107, 132, 0.85), rgba(15, 76, 92, 0.85)), url("images/image1.jpg") ;
+  background-size : cover ;
    background-position : center ;
   color : white ;
-text-align : center ;
-    padding : 112px 20px ;
+  text-align : center ;
+     padding : 110px 20px ;
 }
 
 .hero-content {
-   max-width : 800px ;
-  margin  : auto ;
+     max-width: 800px ;
+  margin : auto ;
 }
 
-.hero-content h1 {
-    font-size : 3rem ;
-  margin-bottom : 19px ;
+.hero h1 {
+     font-size : 3rem ;
+margin-bottom : 18px ;
+  }
+
+.hero p {
+     font-size : 1.1rem ;
+ margin-bottom : 28px ;
 }
 
-.hero-content p {
-    font-size : 1.1rem ;
-  margin-bottom  : 29px ;
+ .btn  {
+     display : inline-block ;
+      background : #7fe7dc ;
+    color : #0f3c5c ;
+    padding : 12px 26px ;
+      text-decoration : none ;
+   border-radius : 8px ;
+      font-weight : bold ;
+     transition : 0.4s ;
 }
 
-.btn {
-    display : inline-block;
-   background : #7fe9dc;
-color : #0f3c6c ;
-  padding : 13px 27px ;
-   text-decoration : none ;
-  border-radius: 9px;
-font-weight : bold ;
-   transition : 0.4s ;
+   .btn:hover {
+     background : #a5f0e8 ;
 }
 
-.btn:hover {
-    background : #a5f0e8 ;
+ .section {
+    padding : 70px 8% ;
 }
+
+.section h2 {
+     text-align : center ;
+ font-size : 2.2rem;
+     color : #0f4c5c ;
+  margin-bottom : 35px ;
+ }
+
+ .cards {
+    display : grid ;
+grid-template-columns : repeat(auto-fit, minmax(240px, 1fr)) ;
+    gap : 22px ;
+} 
+
+   .card {
+    background : white ;
+   padding : 25px ;
+ border-radius : 16px ;
+     box-shadow : 0 8px 20px rgba(16, 75, 93, 0.13) ;
+border-top : 5px solid #0f5c5c ;
+    transition : transform 0.3s ease ;
+ }
+
+ .card:hover {
+    transform: translateY(-6px) ;
+}
+
+.card h3 {
+     color: #0f4c5c ;
+ margin-bottom : 12px ;
+   font-size : 1.4rem ;
+  }
+
+.alt {
+   background : #dff5f5 ;
+}
+
+  .levels {
+    display: grid ;
+grid-template-columns : repeat(auto-fit, minmax(220px, 1fr)) ;
+    gap : 20px ;
+}
+
+   .level-box {
+     background: white ;
+   padding: 25px ;
+ border-radius: 16px ;
+    text-align : center ;
+   box-shadow : 0 8px 20px rgba(16, 77, 93, 0.13 ) ;
+}
+
+   .level-box h3 {
+    color : #0f4c5c ;
+ margin-bottom : 10px ;
+  }
+
+   .about-box {
+     background : white ;
+ max-width : 885px ;
+   margin : auto ;
+padding : 28px;
+    border-radius : 16px;
+ box-shadow : 0 8px 20px rgba(15, 76, 92, 0.12) ;
+    text-align : center ;
+ border-left : 6px solid #0f4c5c;
+  }
+
+  .footer {
+     background : #0a4958;
+ color : white;
+ text-align : center ;
+    padding : 18px 20px;
+margin-top : 25px ;
+ }
